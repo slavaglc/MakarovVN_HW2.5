@@ -1,10 +1,4 @@
-//
-//  ResultsViewController.swift
-//  Personal Quiz
-//
-//  Created by brubru on 19.07.2021.
-//  Copyright © 2021 Alexey Efimov. All rights reserved.
-//
+
 
 import UIKit
 
@@ -19,7 +13,6 @@ class ResultsViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: false)
         checkAnswers()
-        
     }
     
     private func checkAnswers() {
